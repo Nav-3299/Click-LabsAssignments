@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+     <!-- Popper JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="./assign1.js"></script>
+     <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <title>Document</title>
+</head>
+<body class="container">
+
+    <div >
+        <h1>CALCULATOR</h1>
+        <p>
+            <h5>1.ADD</h5>
+            <h5>2.SUBTRACT</h5>
+            <h5>3.MULTIPLY</h5>
+            <h5>4.DIVIDE</h5>
+        </p>
+    </div>   
+    <div>
+        <form name="myForm" onsubmit="calc()" method="post">
+            <div class="form-group">
+                <label>  ENTER YOUR CHOICE:</label>
+                &nbsp;<input type="text" name="choice" class="form-control" id="yourInp">
+                <label>  ENTER FIRST NUMBER:</label>
+                &nbsp;<input type="text" name="num1" class="form-control" id="yourNum1">
+                <label>  ENTER SECOND NUMBER:</label>
+                &nbsp;<input type="text" name="num2" class="form-control" id="yourNum2">
+            </div>
+            <div class="justify-content-center">
+                <input type="submit" value="SUBMIT" class="btn btn-danger">
+            </div>
+        </form>
+    </div>
+   
+    
+</body>
+</html>
